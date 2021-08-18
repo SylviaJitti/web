@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swaphttps://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+        padding: 0;
+        margin: 0;
+}
+
+.wrapper {
+    background: url("../images/beauty-product.jpg");
+    background-size: cover;
+    height: 120vh;
+}
+
+.navigation {
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4)
+}
+
+img {
+    width: 105px;
+    height: auto;
+    padding: 20 px 100px;
+}
+
+ul { 
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+
+}
+ 
+ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 25px;
+        
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 14px;
+    font-family: Roboto, sans-serif;
+}
+
+/*.navigation ul li a.active
+.navigation ul li a:hover{
+    background:red;
+    border-radius: 5px;
+}*/
+
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center .h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center .h2{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    width: 800px;
+    text-align: center;
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: progress;
+    border-radius: 25px;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: #cc0000;
+}
